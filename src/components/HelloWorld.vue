@@ -46,7 +46,9 @@ export default {
 <style scoped>
 h3 {
   margin: 40px 0 0;
-user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
 ul {
   list-style-type: none;
