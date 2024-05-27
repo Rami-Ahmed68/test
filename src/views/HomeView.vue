@@ -17,6 +17,7 @@ export default {
   },
   methods : {
     test() {
+      cosnole.log("clicked")
       alert("Hello")
     }
   }
