@@ -17,7 +17,7 @@ export default {
   },
   methods : {
     test() {
-      cosnole.log("clicked")
+      console.log("clicked")
       alert("Hello")
     }
   }
