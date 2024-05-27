@@ -17,7 +17,7 @@ export default {
   },
   methods : {
     test() {
-      alert("Hello")
+      alert("Hello");
     }
 }
 </script>
